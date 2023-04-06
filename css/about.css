@@ -1,0 +1,63 @@
+.bio-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #E5E7EB;
+	padding: 64px 256px;
+}
+
+.pic-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-box {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 16px;
+	flex-grow: 0;
+}
+
+.bio-name {
+	font-weight: 900;
+	font-size: 48px;
+	text-decoration-line: underline;
+}
+
+.bio-major {
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 4px;
+}
+
+.bio-descript {
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 32px;
+}
+
+.team-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 64px 256px;
+}
+
+.team-title {
+	text-align: center;
+}
+
+.team-members {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 32px;
+}
+
+#team-pic {
+	max-width: 50%;
+	height: auto;
+}
