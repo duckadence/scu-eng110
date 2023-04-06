@@ -14,6 +14,13 @@ a {
 	text-decoration: inherit;
 }
 
+img {
+	/*border-style: solid;*/
+	border-width: 16px;
+	border-radius: 8px;
+	border-color: #3882F6;
+}
+
 /*----Header Section----*/
 
 .header-box {
@@ -29,8 +36,6 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 16px;
-	margin-bottom: 16px;
 }
 
 .logo {
@@ -45,22 +50,21 @@ a {
 	margin: 0px;
 	display: flex;
 	flex-direction: row;
-	gap: 32px;
 }
 
 li {
-	color: #E5E7EB;
+	color: #F9FAF8;
 	font-size: 18px;
-	text-decoration-line: underline;
-	text-decoration-style: solid;
+	padding: 16px;
 }
 
 #current {
-	text-decoration-style: wavy;;
-	font-weight: bolder;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
 }
 
 li:hover {
+	text-decoration-line: underline;
 	text-decoration-style: wavy;
 }
 

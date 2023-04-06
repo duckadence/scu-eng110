@@ -1,0 +1,39 @@
+.intro-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #1F2937;
+	color: #F9FAF8;
+	padding: 128px 256px;
+}
+
+.intro-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	width: 40%;
+}
+
+.intro-title {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.intro-descript {
+	margin-top: 16px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.pic-box {
+	margin-left: 64px;
+	width: 40%;
+	height: auto;
+}
+
+#landing-pic{
+	width: 100%;
+	height: auto;
+}
