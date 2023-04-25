@@ -1,0 +1,87 @@
+.intro-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #1F2937;
+	color: #F9FAF8;
+	padding: 128px 256px;
+}
+
+.intro-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	width: 40%;
+	margin-left: 64px;
+}
+
+.intro-title {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.intro-descript {
+	margin-top: 16px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.pic-box {
+	width: 40%;
+	height: auto;
+}
+
+#partner-pic{
+	width: 100%;
+	height: auto;
+}
+
+.org-logo {
+	
+	
+}
+
+.logo-box{
+	padding-left: 128px;
+	padding-right: 128px;
+	padding-top: 256px;
+	background-color: #F9FAF8;
+}
+
+.team-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 128px 256px;
+	background-color: #F9FAF8;
+	flex-shrink: 1;
+}
+
+.row1 {
+	padding-top: 64px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.row2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 16px;
+}
+
+.teamlogo {
+	height: auto;
+	width: 10em;
+	padding: 16px;
+	margin: 16px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #3882F6;
+}
