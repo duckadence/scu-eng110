@@ -67,5 +67,16 @@
 }
 
 .member {
-        text-align: center;
+    text-align: center;
+	padding-top: 16px;
+}
+
+.team-name {
+	text-decoration-line: underline;	
+}
+
+.team-bio {
+	font-size: 24px;
+	text-decoration-line: none;
+	color: #3882F6;
 }

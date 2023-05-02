@@ -12,16 +12,51 @@
 	height: auto;
 }
 
+.problem-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F9FAF8;
+	color: #1F2937;
+	padding: 128px 256px;
+}
+
+.statement {
+	padding-top: 16px;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 24px;
+	text-align: left;
+}
+
+
 .documentation-box {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 128px 256px;
-	background-color: #F9FAF8;
+	padding: 128px 10%;
+	background-color: #E5E7EB;
 }
 
-#interview-notes {
+.documents {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	padding-top: 2em;
+}
+
+.document {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 32px;
+}
+
+.interview-notes {
 	padding-top: 64px;
 	width: 100%;
 	height: 20em;
 }
+
