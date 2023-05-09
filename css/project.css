@@ -8,6 +8,7 @@
 }
 
 .gantt-chart {
+	padding-top: 16px;
 	max-width: 100%;
 	height: auto;
 }
@@ -23,8 +24,6 @@
 
 .statement {
 	padding-top: 16px;
-	padding-left: 20%;
-	padding-right: 20%;
 	font-size: 24px;
 	text-align: left;
 }
@@ -46,12 +45,16 @@
 	padding-top: 2em;
 }
 
-.document {
+.button {
 	flex: 1;
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 	font-size: 32px;
+	color: #F9FAF8;
+	background-color: #3882F6;
+	padding: 8px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #E5E7EB;
 }
 
 .interview-notes {
