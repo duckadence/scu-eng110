@@ -37,3 +37,22 @@
 	width: 100%;
 	height: auto;
 }
+
+.navigation-box {
+	padding: 128px 256px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.button {
+	flex: 1;
+	align-items: center;
+	font-size: 32px;
+	color: #F9FAF8;
+	background-color: #3882F6;
+	padding: 8px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #F9FAF8;
+}
